@@ -1,0 +1,19 @@
+{
+    "envlbp": {
+        "awscloudformation": {
+            "AuthRoleName": "lbp-web-app-20190313155031-authRole",
+            "UnauthRoleArn": "arn:aws:iam::404795435238:role/lbp-web-app-20190313155031-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::404795435238:role/lbp-web-app-20190313155031-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "lbp-web-app-20190313155031-deployment",
+            "UnauthRoleName": "lbp-web-app-20190313155031-unauthRole",
+            "StackName": "lbp-web-app-20190313155031",
+            "StackId": "arn:aws:cloudformation:us-east-1:404795435238:stack/lbp-web-app-20190313155031/0663c660-45da-11e9-aa59-0aab6c3cae14"
+        },
+        "categories": {
+            "auth": {
+                "cognito9bbee11d": {}
+            }
+        }
+    }
+}
