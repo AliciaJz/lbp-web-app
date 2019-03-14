@@ -188,8 +188,8 @@ Resources:
           MinimumLength: !Ref passwordPolicyMinLength
           RequireLowercase: true
           RequireNumbers: true
-          RequireSymbols: true
-          RequireUppercase: true
+          RequireSymbols: false
+          RequireUppercase: false
       MfaConfiguration: !Ref mfaConfiguration
       SmsVerificationMessage: !Ref smsVerificationMessage
       SmsConfiguration: 
@@ -198,7 +198,7 @@ Resources:
     
   UserPoolClientWeb:
   # Created provide application access to user pool
-  # Depends on UserPool for ID reference
+  # Depends on UserPool for ID referenceq
     Type: "AWS::Cognito::UserPoolClient"
     Properties:
       ClientName: cognito9bbee11d_app_clientWeb
